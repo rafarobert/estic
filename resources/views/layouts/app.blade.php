@@ -13,8 +13,8 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Mainly scripts -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('inspinia/js/jquery-2.1.1.js') }}"></script>
+    <script src="{{ asset('inspinia/js/bootstrap.min.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -22,10 +22,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="inspinia/css/bootstrap.min.css" rel="stylesheet">
-    <link href="inspinia/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="inspinia/css/animate.css" rel="stylesheet">
-    <link href="inspinia/css/style.css" rel="stylesheet">
+    <link href="{{ asset('inspinia/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('inspinia/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('inspinia/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('inspinia/css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
